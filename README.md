@@ -50,4 +50,4 @@ class _MainPageState extends State<MainPage> {
 }
 ```
 
-For more details, check out the [example](example/lib/main.dart) file.
+For more details, check out the [example](https://pub.dev/packages/fade_indexed_stack/example) file.
