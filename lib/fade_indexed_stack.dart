@@ -1,6 +1,5 @@
 library fade_indexed_stack;
 
-import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 
 /// An IndexedStack with [FadeTransition] and lazy loading.
@@ -139,9 +138,9 @@ class FadeIndexedStackState extends State<FadeIndexedStack>
   }
 
   List<Widget> _getLazyChildren() {
-    return widget.children.mapIndexed((index, child) {
-      final shouldLoadChild = index == widget.index;
-      return shouldLoadChild ? child : widget.placeholder;
-    }).toList();
+    return List.generate(widget.children.length, (index) {
+      final child = widget.children[index];
+      return index == widget.index ? child : widget.placeholder;
+    });
   }
 }
