@@ -1,6 +1,6 @@
 name: fade_indexed_stack
 description: An IndexedStack with FadeTransition and lazy loading.
-version: 0.1.0
+version: 0.2.0
 homepage: "https://www.github.com/lucasshiva/fade_indexed_stack"
 repository: "https://www.github.com/lucasshiva/fade_indexed_stack"
 
