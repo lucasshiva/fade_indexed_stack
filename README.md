@@ -3,7 +3,7 @@
 An `IndexedStack` with `FadeTransition` and lazy loading.
 
 ## Inspirations
-- [diegoveloper](https://github.com/diegoveloper) for the [gist](https://pub.dev/packages/lazy_load_indexed_stack) on how to apply `FadeTransition` to a `IndexedStack`.
+- [diegoveloper](https://github.com/diegoveloper) for the [gist](https://gist.github.com/diegoveloper/1cd23e79a31d0c18a67424f0cbdfd7ad) on how to apply `FadeTransition` to a `IndexedStack`.
 - [okaryo](https://github.com/okaryo/) for the [lazy_load_indexed_stack](https://pub.dev/packages/lazy_load_indexed_stack) package.
 
 
