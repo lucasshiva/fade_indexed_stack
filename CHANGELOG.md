@@ -1,3 +1,6 @@
+## 0.2.2
+- Fix the example on `README.md`
+
 ## 0.2.1
 - Fix `FadeIndexedStack` gist link.
 
