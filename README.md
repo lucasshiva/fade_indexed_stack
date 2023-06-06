@@ -26,6 +26,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: FadeIndexedStack(
+        index: _currentIndex,
         children: [
           FirstPage(),
           SecondPage(),
@@ -50,4 +51,4 @@ class _MainPageState extends State<MainPage> {
 }
 ```
 
-For more details, check out the [example](https://pub.dev/packages/fade_indexed_stack/example) file.
+For more details, check out the [example](example/lib/main.dart) file.
